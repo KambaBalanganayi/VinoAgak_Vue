@@ -41,8 +41,8 @@ import { onMounted } from 'vue'
         <header class="site-header">
             <form class="search" action="#" method="GET" @submit.prevent="selectProduct">
                 <input type="search" v-model="searchTerm" autocomplete="off" list="catalogue-names" >
-                <button type="submit" class="search-button"> 
-                </button>
+                <button type="button" class="clear-button" @click="clearSearch">Clear</button>
+                <button type="submit" class="search-button">Search</button>
             </form>
 
         </header>
@@ -112,6 +112,11 @@ import { onMounted } from 'vue'
         }
       }
   
+      const clearSearch = () => {
+      searchTerm.value = ''
+      selectedProduct.value = null
+      }
+
       watch(searchTerm, () => {
         if (filteredCatalogue.value.length > 0) {
           selectedProduct.value = filteredCatalogue.value[0]
@@ -129,7 +134,8 @@ import { onMounted } from 'vue'
         filteredCatalogue,
         selectedProduct,
         selectProduct,
-        watch
+        watch,
+        clearSearch
       }
     }
   }
