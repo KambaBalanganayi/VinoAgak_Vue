@@ -1,0 +1,28 @@
+/*================= palette de couleurs ==================*/
+
+
+:root{
+
+    --primary-color:  rgb(219, 217, 217);
+    --primary-color-variation: rgb(204, 204, 204);
+
+    --secondary-color: rgb(132, 131, 131);
+    --secondary-color-variation: rgb(201, 196, 196);
+
+    --accent-color: rgb(255, 211, 65);
+    --accent-color-variation: rgb(100, 100, 100);
+    
+
+    /* 88% black */
+    --color-dark: #313131;
+
+    /* 75% black */
+    /* --color-dark: #3f3f3f; */
+    
+    --color-white: #ffffff;
+    
+}
+
+
+
+

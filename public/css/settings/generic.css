@@ -1,0 +1,97 @@
+/*================================ GENERIC ================================*/
+
+* {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	line-height: 1.25;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+h1 {
+	font-size: 45px;
+	max-width: 35ch;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 35px;
+}
+
+h4 {
+	font-size: 30px;
+	max-width: 35ch;
+}
+
+h5 {
+	font-size: 25px;
+}
+
+p,
+a {
+	font-size: 20px;
+}
+
+p {
+    max-width: 85ch;
+    color: var(--color-dark);
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:link {
+    color: var(--color-dark);
+}
+
+a:visited {
+    color: black;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+*+p, *+img, *+small, *+h1, *+h2, *+h3, *+h4, *+h5, *+h6 { 
+	margin-top: 20px; 
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.25;
+}
+
+button{
+    padding: 0;
+    border: none;
+    outline: none;
+    font: inherit;
+    color: inherit;
+    background: none
+}
+
+/*============================ END GENERIC ================================*/

@@ -1,0 +1,52 @@
+.dialogue {
+    width: 300px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: var(--padding-medium);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius:var(--border-radius-small);
+    color: var(--color-dark);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(8, 0, 0, 0.29);
+  }
+  
+  .dialogue h2 {
+    font-size: var(--font-size-medium);
+    margin-bottom: var(--margin-medium);
+  }
+  
+  .dialogue p {
+    font-size:var(--font-size-regular);
+    margin-bottom: 30px;
+   
+  }
+  
+  .button-modal{
+    background-color:var(--primary-color); 
+  }
+
+  .button-form{
+    background-color:var(--accent-color);
+    font-size: var(--font-size-regular);
+  }
+
+  .button-form, .button-modal{
+    border: none;
+    border-radius: var(--border-radius-small);
+    color: var(--color-dark);
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .dialogue button:hover {
+    background-color: var(--color-white);
+  }
+  .dialogue input:hover {
+    background-color: rgb(255, 98, 0);
+  }
+  

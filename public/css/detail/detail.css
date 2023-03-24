@@ -1,0 +1,86 @@
+.product-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family:  var(--font-primary);
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    background-image: linear-gradient(to bottom right, rgba(186, 57, 57, 0.755), var( --accent-color) 50%, var( --accent-color-variation));
+}
+.product-image {
+    flex: 1;
+    max-width: 100%;
+    margin-right: var(--margin-small);
+    
+}
+/* .product-image img {
+     background-color:  var(--primary-color); 
+} */
+.product-description {
+    flex: 1;
+    max-width: 100%;
+    margin-right:  var(--margin-small);
+}
+.product-description h1 {
+    font-size: var(--font-size-medium);
+    margin-top: 0;
+    margin-bottom: var(--margin-small);
+    color: var(--accent-color-variation);
+    font-weight: 800;
+}
+.product-description ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.product-description .soutitle{
+    font-size: var(--font-size-medium);
+}
+.product-description li {
+    font-size:var(--font-size-default);
+    line-height: 1;
+    margin-bottom:  var(--margin-small);
+}
+.li-divider::after {
+    content: "";
+    display: block;
+    border-bottom: 2.5px solid var(--primary-color);
+    margin: 5px 0 ;
+  }
+strong{
+    font-size: 18px;
+} 
+.product-description .btn {
+    text-decoration: none;
+    color: var(--color-white);
+    background-color: var(--secondary-color);
+    font-size: var(--font-size-default);
+    padding: 5px 40px;
+    border-radius: var(--border-radius-ex-small);
+    
+}
+@media screen and (min-width: 768px){
+.product-description li{
+
+    font-size: var(--font-size-medium);
+} 
+.product-description {
+    max-width: 50%;
+}
+.product-description h1 {
+    font-size: var(--font-size-x-large);
+}
+.product-image {
+    max-width: 50%;
+}
+.product-image img {
+    margin-left: auto;
+    padding-right: var(--padding-ex-large);
+    margin-right: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+}

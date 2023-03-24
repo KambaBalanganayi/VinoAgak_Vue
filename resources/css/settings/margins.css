@@ -1,0 +1,20 @@
+:root{
+    --margin-ex-small:5px;
+    --margin-small: 10px;
+    --margin-medium:20px;
+    --margin-large:40px;
+
+
+    --padding-ex-small:5px;
+    --padding-small: 10px;
+    --padding-medium: 20px;
+    --padding-large: 30px;
+    --padding-ex-large: 40px;
+
+
+    --border-radius-ex-small:5px;
+    --border-radius-small:10px;
+    --border-radius-meduim:15px;
+    --border-radius-large:20px;
+    --border-radius-ex-large:40px;
+}

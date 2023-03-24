@@ -1,0 +1,129 @@
+/*-------------------------- containers --------------------------*/
+
+.container-signup{
+    background-color: var(--accent-color-variation);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://as2.ftcdn.net/v2/jpg/00/97/95/11/1000_F_97951154_mc0qsUpZBWWNm1TjSehhwCQJ4lBiRGm4.jpg');
+}
+
+.container-form{
+
+    margin: var(--margin-small);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--color-dark);
+
+  /* transparence */
+    background: rgba(255, 255, 255, 0.29);
+    border-radius: 16px;    
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.header-form{
+    background-color: var(--primary-color);
+    margin: var(--margin-small);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    padding: var(--padding-small);
+}
+
+.header-form>h3{
+  margin-left: 20px;
+}
+
+/*-------------------------- input --------------------------*/
+
+input.name[type=text]{
+    border: none;
+    background: transparent;
+    margin: 0;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid;
+    border-radius: inherit;
+    width: 90%;
+    padding: var(--padding-small);
+    margin: var(--margin-small);
+  }
+
+  
+input.email[type=email]{
+    border: none;
+    background: transparent;
+    margin: 0;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid;
+    border-radius: inherit;
+    width: 90%;
+    padding: var(--padding-small);
+    margin: var(--margin-small);
+  }
+
+  input.password[type=password]{
+    border: none;
+    background: transparent;
+    margin: 0;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid;
+    border-radius: inherit;
+    width: 90%;
+    padding: var(--padding-small);
+    margin: var(--margin-small);
+  }
+
+  input.password[type=password]{
+    border: none;
+    background: transparent;
+    margin: 0;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid ;
+    border-radius: inherit;
+    width: 90%;
+    padding: var(--padding-small);
+    margin: var(--margin-small);
+  }
+
+  input.submit[type=submit]{
+    border: none;
+    background-color: var(--accent-color);
+    margin: 0;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid ;
+    border-radius: inherit;
+    width: 90%;
+    padding: var(--padding-small);
+    margin: var(--margin-small);
+  }
+
+  input.submit[type=submit]:hover{
+    background-color: var(--accent-color-variation);
+  }
+
+ a.text-login{
+    color: var(--color-dark);
+    text-decoration: underline;
+    font-size: inherit;
+ }
+
+ a.text-login:hover{
+    background-color: var(--accent-color);
+ }
+
+ .text-form{
+    padding: var(--padding-small);
+
+ }

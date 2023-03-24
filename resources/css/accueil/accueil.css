@@ -1,0 +1,83 @@
+ 
+
+.accueil-container {
+    position: relative;
+    height: 100vh;
+    /* background-image: url('https://st2.depositphotos.com/1177973/6257/i/600/depositphotos_62572249-stock-photo-pouring-red-wine-from-bottle.jpg'); */
+    background-image: url('https://as2.ftcdn.net/v2/jpg/00/97/95/11/1000_F_97951154_mc0qsUpZBWWNm1TjSehhwCQJ4lBiRGm4.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.accueil-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding-medium);
+    
+}
+.accueil-titre {
+    color: var(--accent-color);
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: var(--margin-medium);
+    font-family:  var(--font-primary);
+}
+.accueil-container>p {
+    color: var(--color-white);
+    font-size: var(--font-size-default);
+    text-align: center;
+    margin-bottom: var(--margin-medium);
+}
+.accueil-button {
+    color: var(--color-white);
+    background-color: var(--accent-color);
+    padding: 10px 40px;
+    border: none;
+    border-radius: var(--border-radius-ex-small);
+    font-size:var(--font-size-default);
+    cursor: pointer;
+}
+
+.accueil-button:hover {
+    background-color: var(--accent-color-variation);
+}
+
+p.accueil-paragraph{
+    font-size:var(--font-size-regular);
+    margin-bottom: 30px;
+    color: var(--color-white);
+}
+
+@media screen and (min-width: 768px) {
+
+    .accueil-container {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('https://as2.ftcdn.net/v2/jpg/00/97/95/11/1000_F_97951154_mc0qsUpZBWWNm1TjSehhwCQJ4lBiRGm4.jpg');
+    }
+    .accueil-overlay {
+        margin: 0 auto;
+        padding: 50px;
+    }
+    .accueil-titre {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .accueil-button {
+       font-size: var(--font-size-regular);
+       padding: 15px 30px;
+    }
+}
+
+
